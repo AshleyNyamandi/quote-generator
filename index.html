@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- favicon links -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- meta data -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A random quote generator using html, css and javascript">
+    <meta name="keywords" content="HTML, CSS, Javascript, Web development projetcs">
+    <meta name="author" content="Ashley Nyamandi">
+    <title>Quote generator</title>
+</head>
+<body>
+    <div class="wrapper">
+        <!-- header section -->
+        <header>
+            <h1>Quote generator</h1>
+        </header>
+
+        <!-- Quote section -->
+        <section class="quote-section">
+            <div class="quote-wrapper">
+                <!-- <i class="fa-solid fa-quote-left"></i> -->
+                <p class="quote-text">Loading...</p>
+                <!-- <i class="fa-solid fa-quote-right"></i> -->
+
+            </div>
+            <p class="author">
+                <span>----</span>
+                <span class="author-name"></span> 
+            </p>
+        </section>
+        <!-- Controls section -->
+        <section class="controls">
+            <div class="left-controls">
+                <button class="speak-btn">
+                    <i class="fa-solid fa-volume-high"></i>
+                </button>
+                <button class="copy-btn">
+                    <span class="copy-toast hidden" aria-live="polite">copied</span>
+                    <i class="fa-solid fa-copy"></i>
+                </button>
+                
+            </div>
+            <button class="get-quote-btn">New Quote</button>
+        </section>
+    </div>
+    <script src="https://kit.fontawesome.com/14bc5e1e08.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
